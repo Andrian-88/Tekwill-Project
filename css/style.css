@@ -482,3 +482,40 @@ body {
     margin: 0;
     padding: 0;
  }
+ 
+.content-slogan {
+    font-family: Montserrat;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 137.931% */
+letter-spacing: 0.2px;
+}
+
+.content-message {
+    font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+letter-spacing: 0.2px;
+}
+
+.header-nav_bar {
+    display: inline-flex;
+    padding: 23px 164px 23px 136px;
+    align-items: center;
+    gap: 462px;
+}
+
+.first-page_kmarket-button {
+    display: flex;
+    height: 58px;
+    padding: 13px 57px 13px 0px;
+    align-items: center;
+}
+
+.kmarketer_logo {
+    position: relative; top 20px; left 40px;
+
+}
