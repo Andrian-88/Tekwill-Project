@@ -466,8 +466,9 @@ body {
     
     margin: 0 auto;
 }
+
 .container {
-    max-width: auto;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
     
@@ -477,6 +478,7 @@ body {
  .first-page {
     background-image: url("C:/As-gard/Tekwill/Tekwill-Project/Tekwill-Project/img/cover.png");
     min-height: 680px;
+    min-width: 1440px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -494,12 +496,14 @@ body {
 display: flex;
 margin-top: 50px;
 margin-left: 200px;
-}   
+}  
+
 .first-page_kmarketer-button-pic {
     
     width: 130px;
     height: 32px;
 } 
+
 .header_nav {
     position: sticky;
 }
@@ -512,6 +516,7 @@ margin-left: 200px;
     gap: 20px;
     
  }
+
  .naw-bar {
     color: #FFF;
 
@@ -529,6 +534,22 @@ margin-left: 200px;
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.actions-item {
+    background: transparent;
+    border: none;
+    margin-top: 50px;
+}
+
+.item-icon_search {
+    width: 20px;
+    height: 20px;
+}
+
+.item-icon_cart {
+    width: 18px;
+    width: 18px;
 }
 
  
@@ -564,6 +585,7 @@ margin-top: 40px;
        gap: 10px;
        margin-top: 40px;
     }
+
     .button {
         padding: 10px 35px;
         line-height: 26px;
@@ -576,16 +598,82 @@ margin-top: 40px;
     .button--primary {
         background-color: #FFA62B;
     }
-.actions-item {
-    background: transparent;
-    border: none;
-    margin-top: 50px;
-}
-.item-icon_search {
-    width: 20px;
-    height: 20px;
-}
-.item-icon_cart {
-    width: 18px;
-    width: 18px;
-}
+
+ /* Homework page two!*/
+
+ .strong-points {
+   background-color: #252B42;
+   min-height: 680px;
+    min-width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+ }
+
+ .strong-points_content {
+ display:flex;
+align-self: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; 
+width: 864px;
+gap: 10px;
+
+ }
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: 328px 328px 328px;
+    gap: 30px;
+    padding: 300px 195px 100px ;
+
+
+
+ }
+
+ .grid-card {
+ display: flex;
+width: 328px;
+padding: 35px 40px 35px 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+border: 1px solid #E8E8E8;
+background: #FFF;
+ }
+
+ .grid-card_text {
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.2px;
+ }
+
+ .grid-card_title {
+    display: inline-flex;
+    
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+letter-spacing: 0.1px;
+ }
+
+ .grid-icon {
+    justify-self:flex-start;
+    width: 48px;
+    height: 40px;
+ }
+
+
+
+  
+ 
