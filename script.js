@@ -140,8 +140,16 @@ const assignedGrade = (score) => {
 } 
 console.log(assignedGrade(90));
   
+// homework 15 exercise Nr 7
 
+function tellFortune (N,Z,Y,X) {
+    
+     console.log(`You will be ${X} in ${Y}, and will get married to ${Z} with ${N} kids`)
+}
 
+tellFortune(1, "Sophia", "London", "a renowned programmer");
+    tellFortune(2, "Emma", "Paris", "a successful entrepreneur");
+    tellFortune(3, "Corina", "Rome", "a successful pharmacist");
 
 
 
