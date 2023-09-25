@@ -30,4 +30,32 @@ console.log(names);
 const namesIndex = names.indexOf('Mike');
 console.log(namesIndex);
 
+// Homework Nr 16 exercise (5)
+ const numberss = [2,4,6,8,10];
+ console.log(numberss);
+ const haveNumber = numberss.includes(5);
+ console.log(haveNumber);
+ numberss.push(12);
+ console.log(numberss);
 
+ // Homework Nr 16 exercise (6)
+ const months = ['January', 'February', 'March', 'April', 'May','June', 'July', 'August', 'September', 'October','November','December'];
+ months.sort();
+ console.log(months);
+
+ // Homework Nr 16 exercise (7)
+ const yearMonths = ['January', 'February', 'March', 'April', 'May','June', 'July', 'August', 'September', 'October','November','December'];
+ const result = yearMonths.filter((word)=>word.length > 3);
+ console.log(result);
+
+ // Homework Nr 16 exercise (8)
+ const yearArray = ['January', 'February', 'March', 'April', 'May','June', 'July', 'August', 'September', 'October','November','December'];
+ const sliceYear = yearArray.slice(6,-1);
+ console.log(sliceYear);
+
+ // Homework Nr 16 exercise (9)
+ const monthsArray = ['January', 'February', 'March', 'April', 'May','June', 'July', 'August', 'September', 'October','November','December'];
+ const resultArray = monthsArray.filter((word)=>word.length > 5);
+ resultArray.sort();
+ const resultString = resultArray.join('"_"');
+ console.log(resultString);
