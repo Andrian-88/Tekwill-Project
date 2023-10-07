@@ -466,39 +466,92 @@ body {
     
     margin: 0 auto;
 }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
  
 
  .first-page {
     background-image: url("C:/As-gard/Tekwill/Tekwill-Project/Tekwill-Project/img/cover.png");
     min-height: 680px;
+    min-width: 1440px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
+
  }
+ 
 
  .first-page_header {
     display: flex;
     flex-direction: row;
+    gap: 40px;
 }
+
+.first-page_kmarket-button {
+display: flex;
+margin-top: 50px;
+margin-left: 200px;
+}  
+
 .first-page_kmarketer-button-pic {
-    margin-left: 200px ;
-    margin-top: 50px;
+    
+    width: 130px;
+    height: 32px;
+} 
+
+.header_nav {
+    position: sticky;
 }
 
  .nav-bar_list {
     display: flex;
+    text-align: center;
     margin-left:  680px;
     margin-top: 50px;
     gap: 20px;
+    
+ }
+
+ .naw-bar {
+    color: #FFF;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+
+
  }
 
  .header-actions {
 
     display: flex;
     align-items: center;
-    gap: 18px;
-    margin-left: 90px;
+    gap: 15px;
 }
+
+.actions-item {
+    background: transparent;
+    border: none;
+    margin-top: 50px;
+}
+
+.item-icon_search {
+    width: 20px;
+    height: 20px;
+}
+
+.item-icon_cart {
+    width: 18px;
+    width: 18px;
+}
+
  
 .content-slogan {
     font-family: Montserrat;
@@ -508,8 +561,7 @@ font-weight: 800;
 line-height: 80px; /* 137.931% */
 letter-spacing: 0.2px;
 text-align: center;
-margin-top: 185px;
-margin-right: 50px;
+margin-top: 145px;
 }
 
 .content-message {
@@ -520,12 +572,108 @@ font-weight: 500;
 line-height: 30px; /* 150% */
 letter-spacing: 0.2px;
 text-align: center;
+margin-top: 40px;
 }
+
 
     
 
-    .first-page_action-buttons {
+.first-page_action-buttons {
         display: flex;
         align-items: center;
+       justify-content: center;
+       gap: 10px;
+       margin-top: 40px;
     }
 
+    .button {
+        padding: 10px 35px;
+        line-height: 26px;
+        border-radius: 40px;
+        border: 1px solid white;
+        color:#FFF;
+        background: transparent;
+    }
+
+    .button--primary {
+        background-color: #FFA62B;
+    }
+
+ /* Homework page two!*/
+
+ .strong-points {
+   background-color: #252B42;
+   min-height: 680px;
+    min-width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+ }
+
+ .strong-points_content {
+ display:flex;
+align-self: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; 
+width: 864px;
+gap: 10px;
+
+ }
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: 328px 328px 328px;
+    gap: 30px;
+    padding: 300px 195px 100px ;
+
+
+
+ }
+
+ .grid-card {
+ display: flex;
+width: 328px;
+padding: 35px 40px 35px 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+border: 1px solid #E8E8E8;
+background: #FFF;
+ }
+
+ .grid-card_text {
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.2px;
+ }
+
+ .grid-card_title {
+    display: inline-flex;
+    
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+letter-spacing: 0.1px;
+ }
+
+ .grid-icon {
+    justify-self:flex-start;
+    width: 48px;
+    height: 40px;
+ }
+
+
+
+  
+ 
