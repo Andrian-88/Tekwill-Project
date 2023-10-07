@@ -59,3 +59,7 @@ console.log(namesIndex);
  resultArray.sort();
  const resultString = resultArray.join('"_"');
  console.log(resultString);
+
+
+
+ 
